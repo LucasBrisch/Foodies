@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="pref.css">
     <title>Map</title>
 </head>
+
 <body>
     <div class="container">
         <div class="menu">
@@ -36,35 +38,98 @@
             <h2 class="foodie">Foodie's</h2>
         </div>
         <div class="container">
-            <!-- Menu omitted for brevity -->
             <div class="content">
                 <form id="filters-form">
                     <div class="filters">
                         <fieldset>
                             <legend>Culinárias</legend>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="italian"> Italiana</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="japanese"> Japonesa</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="chinese"> Chinesa</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="mexican"> Mexicana</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="indian"> Indiana</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="french"> Francesa</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="thai"> Tailandesa</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="greek"> Grega</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="spanish"> Espanhola</label>
-                            <label class="checkbox-label"><input type="checkbox" name="cuisine" value="middle-eastern"> Oriente Médio</label>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="italian"> Italiana</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="japanese"> Japonesa</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="chinese"> Chinesa</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="mexican"> Mexicana</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="indian"> Indiana</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="french"> Francesa</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="thai"> Tailandesa</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="greek"> Grega</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="spanish"> Espanhola</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="cuisine" value="middle-eastern"> Oriente Médio</label>
+                                    </td>
+                                </tr>
+                            </table>
                         </fieldset>
                         <fieldset>
                             <legend>Especificidades</legend>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="vegan"> Vegan</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="vegetarian"> Vegetariano</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="pescatarian"> Pescatariano</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="gluten-free"> Sem Glúten</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="dairy-free"> Sem Lactose</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="halal"> Halal</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="kosher"> Kosher</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="low-carb"> Baixo Carboidrato</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="paleo"> Paleo</label>
-                            <label class="checkbox-label"><input type="checkbox" name="specificity" value="keto"> Keto</label>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="vegan"> Vegan</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="vegetarian"> Vegetariano</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="pescatarian"> Pescatariano</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="gluten-free"> Sem Glúten</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="dairy-free"> Sem Lactose</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="halal"> Halal</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="kosher"> Kosher</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="low-carb"> Baixo Carboidrato</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="paleo"> Paleo</label>
+                                    </td>
+                                    <td>
+                                        <label class="checkbox-label"><input type="checkbox" name="specificity" value="keto"> Keto</label>
+                                    </td>
+                                </tr>
+                            </table>
                         </fieldset>
                     </div>
                     <div class="price-range">
@@ -76,5 +141,7 @@
                 </form>
             </div>
         </div>
-    </body>
-    </html>
+    </div>
+</body>
+
+</html>
